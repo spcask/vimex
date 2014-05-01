@@ -1,0 +1,31 @@
+vi was derived from a sequence of UNIX command line editors, starting
+with ed, which was a line editor designed to work well on teletypes,
+rather than display terminals. Within AT&T Corporation, where ed
+originated, people seemed to be happy with an editor as basic and
+unfriendly as ed, George Coulouris recalls, "For many years, they had no
+suitable terminals. They carried on with TTYs and other printing
+terminals for a long time, and when they did buy screens for everyone,
+they got Tektronix 4014s. These were large storage tube displays. You
+can't run a screen editor on a storage tube display as the picture can't
+be updated. Thus it had to fall to someone else to pioneer screen
+editing for Unix, and that was us initially, and we continued to do so
+for many years."
+
+Coulouris considered the cryptic commands of ed to be only suitable for
+"immortals", and thus in February, 1976, he enhanced ed (using Ken
+Thompson's ed source as a starting point) to make em (the "editor for
+mortals") while acting as a lecturer at Queen Mary College. The em
+editor was designed for display terminals and was a
+single-line-at-a-time visual editor. It was one of the first programs on
+Unix to make heavy use of "raw terminal input mode", in which the
+running program, rather than the terminal device driver, handled all
+keystrokes. When Coulouris visited UC Berkeley in the summer of 1976, he
+brought a DECtape containing em, and showed the editor to various
+people. Some people considered this new kind of editor to be a potential
+resource hog, but others, including Bill Joy were impressed.
+
+Inspired by em, and by their own tweaks to ed, Bill Joy and Chuck Haley,
+both graduate students at UC Berkeley, took code from em to make en, and
+then "extended" en to create ex version 0.1. After Haley's departure,
+Bruce Englar encouraged Joy to redesign the editor, which he did June
+through October 1977 adding a full-screen visual mode to ex.

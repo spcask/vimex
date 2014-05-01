@@ -1,0 +1,19 @@
+Joy was responsible for creating the first BSD Unix release in March,
+1978, and included ex 1.1 (dated 1 February 1978) in the
+distribution, thereby exposing his editor to an audience beyond UC
+Berkeley. From that release of BSD Unix onwards, the only editors
+that came with the Unix system were ed and ex. In a 1984 interview, Joy
+attributed much of the success of vi to the fact that it was bundled for
+free, whereas other editors, such as Emacs, could cost hundreds of
+dollars.
+
+Eventually it was observed that most ex users were spending all their
+time in visual mode, and thus in ex 2.0, Joy created vi as a hard link
+to ex, such that when invoked as vi, ex would automatically start up in
+its visual mode. Thus, vi is not the evolution of ex, vi is ex.
+
+Joy described ex 2.0 (vi) as a very large program, barely able to fit in
+the memory of a PDP-11/70, thus although vi may be regarded as a small,
+lightweight, program today, it was not seen that way early in its
+history. By version 3.1, shipped with 3BSD in December 1979, the full
+version of vi was no longer able to fit in the memory of a PDP-11.

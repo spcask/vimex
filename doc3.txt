@@ -1,0 +1,18 @@
+Many of the ideas in ex's visual mode (a.k.a. vi) were taken from other
+-----------------------------------------------------------------------
+editor. In an interview about vi's origins, Joy said, "A lot of the
+ideas for the screen editing mode were stolen from a Bravo manual I
+-----------------------------------------------------------------------
+some things stolen from ed--we got a manual page for the Toronto version
+of ed, which I think Rob Pike had something to do with. We took some of
+the regular expression extensions out of that."
+
+Joy used a Lear Siegler ADM3A terminal. On this terminal, the Escape key
+-----------------------------------------------------------------------
+one row above the middle row). This made it a convenient choice for
+switching vi modes. Also, the keys h, j, k, l served double duty as
+-----------------------------------------------------------------------
+that the terse, single character commands and the ability to type ahead
+of the display were a result of the slow 300 baud modem he used when
+developing the software and that he wanted to be productive when the
+screen was painting slower than he could think.

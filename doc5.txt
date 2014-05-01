@@ -1,0 +1,27 @@
+Up to ve---- 3.7 of vi, created in October, 1981, UC Berkeley was the
+development home for vi, but with Bill Joy's departure in early 1982, to
+------------------------------------------------------------------------
+vi, changes to the vi codebase happened more slowly and in a more
+dispersed and mutually in---- ways. At UC Berkeley, changes were
+made but the version number was never updated beyond 3.7.  Commercial
+Unix vendors, such as Sun, HP, DEC, and IBM each received copies of the
+vi source, and their operating systems, Solaris, HP-UX, Tru64 UNIX, and
+------------------------------------------------------------------------
+the 3.7 release, but with added features, such as adjustable key
+mappings, encryption, and wide character support.
+
+While commercial vendors could work with Bill Joy's codebase (and
+continue to use it today), many people could not. Because Joy had begun
+------------------------------------------------------------------------
+not be distributed except to people who had an AT&T source license.
+People lo---- for a free Unix-style editor would have to look
+elsewhere. By 1985, a version of Emacs (MicroEMACS) was available for a
+variety of platforms, but it was not until June, 1987 that Stevie (ST
+------------------------------------------------------------------------
+January, 1990, Steve Kirkendall posted a new clone of vi, Elvis, to the
+Usenet newsgroup comp.os.minix, aiming for a more complete and more
+faithful clone of vi than Stevie. It quickly attracted considerable
+interest in a number of enthusiast communities. Andrew Tanenbaum quickly
+asked the co---- to decide one of these two editors to be the vi
+clone in Minix; Elvis was chosen, and remains the vi clone for Minix
+today.
