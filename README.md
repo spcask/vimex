@@ -64,7 +64,8 @@ The commands `:wq` and `:q!` are Ex commands which are entered in
 command-line mode. They are called command-line mode commands because as
 soon as you press `:`, the command-line at the bottom of the screen is
 activated where you can complete the command. You must press `<Enter>`
-after typing the command to enter the command.
+after typing the command to enter the command. For example, to enter the
+Ex command `:wq`, you must type `:wq<Enter>`.
 
 Exercise
 --------
